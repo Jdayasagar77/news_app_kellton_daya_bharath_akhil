@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "208046169825",
+    "project_id": "signinnews",
+    "storage_bucket": "signinnews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208046169825:android:385d8215ecb20a0ca0e1a0",
+        "android_client_info": {
+          "package_name": "com.example.news_app_kellton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208046169825-to8nc3ktajghk20mqcd943507ph30i7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcfxBrmeIlyptt57uuFNgsyUx7FXEMLu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208046169825-to8nc3ktajghk20mqcd943507ph30i7a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208046169825-6e34gtim9qkhm9m0dhj3q4ltloqf5jio.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newsAppKellton"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
