@@ -15,10 +15,10 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return SplashScreenView(
       navigateRoute: const LoginScreen(),
-      duration: 6000,
+      duration: 7000,
       imageSize: 200,
       imageSrc: "assets/images/WhiteSpidey.png",
-      text: "Welcome To DJ Spider News App",
+      text: "News App By J Daya  Bharath and Akhil",
       textType: TextType.ColorizeAnimationText,
       textStyle: const TextStyle(
         fontSize: 40.0,

@@ -68,7 +68,7 @@ class _NavDrawerState extends State<NavDrawer> {
               ),
             ),
             accountName: const Text(
-              "J Dayasagar News App",
+              "Daily Bugle News App Kellton",
               style: TextStyle(
                 color: Colors.black,
                 backgroundColor: Colors.yellow,
@@ -126,7 +126,7 @@ class _NavDrawerState extends State<NavDrawer> {
           //         builder: (BuildContext context) => const AboutUs()));
           //   },
           // ),
-         
+
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(

@@ -137,7 +137,7 @@ class _RegisterFormState extends State<RegisterForm> {
                     const SizedBox(height: 40),
                     Center(
                       child: SizedBox(
-                        child: typer('Sign Up Quickly To', 'DJ Spider News'),
+                        child: typer('Sign Up Quickly To', 'Daily Bugle'),
                       ),
                     ),
                     const SizedBox(height: 20),

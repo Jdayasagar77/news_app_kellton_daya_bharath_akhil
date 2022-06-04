@@ -4,9 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app_kellton/model/newsapimodel.dart';
 import 'package:news_app_kellton/screens/detailshow.dart';
-import 'package:splash_screen_view/SplashScreenView.dart';
-
-import '../screens/login.dart';
 
 CircleAvatar logoWidget(String imageName) {
   return CircleAvatar(
@@ -163,8 +160,7 @@ Widget typer(String text1, String text2) {
   return Container(
     decoration: const BoxDecoration(
       gradient: LinearGradient(
-          colors: [
-            Colors.greenAccent, Colors.white12, Colors.purple]),
+          colors: [Colors.greenAccent, Colors.white12, Colors.purple]),
     ),
     child: DefaultTextStyle(
       style: const TextStyle(
@@ -176,7 +172,10 @@ Widget typer(String text1, String text2) {
             textStyle: const TextStyle(color: Colors.black),
             speed: const Duration(milliseconds: 100)),
         TyperAnimatedText(text2,
-            textStyle: const TextStyle(color: Color.fromARGB(255, 255, 0, 0)),
+            textStyle: const TextStyle(
+              color: Color.fromARGB(255, 255, 0, 0),
+              fontStyle: FontStyle.italic,
+            ),
             speed: const Duration(milliseconds: 100)),
       ]),
     ),
